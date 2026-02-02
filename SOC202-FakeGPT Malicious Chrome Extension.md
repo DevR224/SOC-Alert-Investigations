@@ -26,10 +26,9 @@ A malicious Chrome extension disguised as a FakeGPT tool was executed on the hos
 ---
 
 ## 📖 Full Walkthrough
-➡️ **Detailed investigation, log analysis, and reasoning available here:**  
-🔗 *Hashnode Blog:*  
-`https://rideshcyber.hashnode.dev/soc202-fakegpt-malicious-chrome-extension`
 
+👉 **Detailed SOC investigation with screenshots and reasoning:**  
+[Hashnode Blog – SOC202 Walkthrough](https://rideshcyber.hashnode.dev/soc202-fakegpt-malicious-chrome-extension)
 ---
 
 ## 🧠 Skills Demonstrated
