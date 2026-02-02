@@ -16,7 +16,7 @@ To demonstrate **hands-on SOC analysis skills**, structured thinking, and practi
 
 | Alert ID | Alert Name | Focus | Links |
 |--------|-----------|-------|-------|
-| SOC202 | FakeGPT Malicious Chrome Extension | Browser-based malware, C2, DoS | |
+| SOC202 | FakeGPT Malicious Chrome Extension | Browser-based malware, C2, DoS | ./SOC-Alert-Investigations/SOC138 – Detected Suspicious XLS File .md |
 | SOC138 | Suspicious XLS File Execution | Malicious macros, C2 access |  |
 | SOCXXX | _(More coming…)_ | — | — |
 
