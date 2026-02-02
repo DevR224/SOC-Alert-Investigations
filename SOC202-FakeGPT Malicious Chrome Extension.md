@@ -1,4 +1,4 @@
-# SOC202 – FakeGPT Malicious Chrome Extension
+# SOC202 – FakeGPT Malicious Chrome Extension (EventID:153)
 
 ## 🔍 Alert Summary
 A malicious Chrome extension disguised as a FakeGPT tool was executed on the host, resulting in restricted Windows Defender privileges and outbound communication to a suspicious external domain. Endpoint behavior and threat intelligence confirmed malicious activity, and the host was contained.
