@@ -1,59 +1,77 @@
-# SOC138 – Detected Suspicious XLS File
+# 🚨 SOC138 – Suspicious XLS File Execution (EventID: 77)
 
-## Overview
-This document summarizes the key Indicators of Compromise (IOCs) and findings identified during the investigation of the **SOC138 – Detected Suspicious XLS File** alert on the LetsDefend platform.
-
-A detailed step-by-step investigation walkthrough is documented separately on my Hashnode blog.
-
----
-
-## Alert Summary
-- **Alert Name:** SOC138 – Detected Suspicious XLS File
-- **Affected Host:** 172.16.17.56
-- **Threat Type:** Malicious XLS file
-- **Host Status:** Quarantined (Contained)
-- **C2 Activity:** Observed
+## 📌 Alert Summary
+A **suspicious XLS spreadsheet** containing **malicious macros** was executed on the host **SOFIA**, resulting in **unauthorized access** and **Command-and-Control (C2) communication**.  
+The host device was **successfully contained**, but further mitigation actions are recommended to prevent data loss.
 
 ---
 
-## Key Findings
-- The host generated **unexpected outbound network traffic**
-- The XLS file and associated URL were confirmed **malicious via VirusTotal**
-- Evidence of **Command-and-Control (C2) communication** was identified
-- The host system was already contained at the time of investigation
-- Alert reinvestigation revealed minor containment status inconsistency, likely platform-related
+## 🖥️ Affected Host Details
+- **Hostname:** SOFIA  
+- **Source IP:** 172.16.17.56  
+- **Event ID:** 77  
+- **Execution Time:** Mar 13, 2021 – 08:20 PM  
 
 ---
 
-## Indicators of Compromise (IOCs)
+## 📂 Malicious File Details
+- **File Name:** `ORDER SHEET & SPEC.xlsm`
+- **File Type:** Excel Macro-enabled Spreadsheet
+- **File Size:** 2.66 MB
+- **File Hash (MD5):** `7ccf88c0bbe3b29bf19d877c4596a8d4`
 
-### IP Addresses
-- `177.53.143.89` – Suspicious external IP associated with C2 communication
-
-### File Indicators
-- **File Type:** XLS
-- **File Hash:** (Identified during investigation and verified via VirusTotal)
-
-### Network Indicators
-- Unexpected outbound traffic from the affected host
-- Suspicious external communication shortly after alert creation
+⚠️ The file contained **malicious macros** designed to establish **C2 communication**.
 
 ---
 
-## Analyst Verdict
-The XLS file was confirmed **malicious**, and the alert represents a **true positive**.  
-Containment actions were appropriate, and no further compromise was observed after isolation.
+## 🌐 Network & C2 Indicators
+- **Suspicious IP Address:** `177.53.143.89`
+- **Activity Observed:**  
+  - Outbound connection detected  
+  - Unauthorized access achieved  
+  - Indicators consistent with **Command & Control behavior**
 
 ---
 
-## Full Investigation Walkthrough
-For a complete analysis walkthrough with screenshots and reasoning:
-
-🔗 **Hashnode Blog:**  
-https://soc138-detected-suspicious-xls-file.hashnode.dev/soc138-detected-suspicious-xls-file-soc-alert-walkthrough?showSharer=true
+## 🔍 Threat Intelligence Verdict
+- **VirusTotal Result:** Malicious  
+- **Threat Classification:**  
+  - Macro-based malware  
+  - C2-enabled payload  
+  - Potential data compromise risk  
 
 ---
 
-## About This Repository
-This repository is maintained to showcase **SOC alert investigation experience**, IOC extraction, and incident response reasoning for practical SOC environments.
+## 🛡️ Containment & Response
+- ✅ Host device **contained / quarantined**
+- ⚠️ Additional actions recommended:
+  - Credential review
+  - Endpoint hardening
+  - Network monitoring for related IOCs
+
+---
+
+## 📎 Indicators of Compromise (IOCs)
+| Type | Value |
+|----|------|
+| File Hash (MD5) | `7ccf88c0bbe3b29bf19d877c4596a8d4` |
+| Malicious IP | `177.53.143.89` |
+| File Name | `ORDER SHEET & SPEC.xlsm` |
+| Host IP | `172.16.17.56` |
+
+---
+
+## 📝 Analyst Notes
+- The malicious spreadsheet leveraged **macro execution** to gain access.
+- C2 traffic confirms **active attacker interaction**.
+- Although the host was already contained, alert workflow still required containment confirmation.
+
+---
+
+## 🔗 Full Investigation Walkthrough
+👉 **Detailed SOC investigation with screenshots and reasoning:**  
+[Hashnode Blog – SOC138 Walkthrough](https://soc138-detected-suspicious-xls-file.hashnode.dev/soc138-detected-suspicious-xls-file-soc-alert-walkthrough?showSharer=true)
+
+---
+
 
