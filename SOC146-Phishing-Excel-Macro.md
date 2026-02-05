@@ -58,8 +58,8 @@ Source : Phishing Email Attachment
 For a **step-by-step SOC analysis with screenshots and reasoning**, read the full blog:
 
 🔗 **Hashnode Blog:**  
-👉 *SOC146 Hashnode blog link here*
-
+👉[ *SOC146 Hashnode blog link here*
+](https://soc146phishing-mail-detected.hashnode.dev/soc146-phishing-mail-detected-excel-40-macrosevent-id-93?showSharer=true)
 ---
 
 ## 🎯 Purpose of This File
