@@ -46,8 +46,7 @@ This alert was triggered due to repeated VPN authentication attempts from an **u
 
 ## 📖 Full Investigation Walkthrough
 👉 **Read the complete SOC analysis here:**  
-🔗 *[Hashnode Blog – SOC257 VPN Investigation]*  
-(Replace this with your actual blog URL)
+🔗 *[Hashnode-Article ](https://rideshcyber.hashnode.dev/soc257-vpn-connection-detected-from-unauthorized-country-eventid225?showSharer=true)*  
 
 ---
 
