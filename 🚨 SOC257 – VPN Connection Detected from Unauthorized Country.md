@@ -1,4 +1,4 @@
-# 🚨 SOC257 – VPN Connection Detected from Unauthorized Country (EventID-225)
+# SOC257 – VPN Connection Detected from Unauthorized Country (EventID-225)
 
 ## 🧠 Alert Summary
 - **Alert ID:** SOC257  
