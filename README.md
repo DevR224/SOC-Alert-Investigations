@@ -14,14 +14,14 @@ To demonstrate **hands-on SOC analysis skills**, structured thinking, and practi
 
 ## 🧭 Alert Navigation
 
-| Alert ID | Alert Name | Focus | Links |
+| Alert ID | Alert Name | Alert Type| Links |
 |--------|-----------|-------|-------|
-| SOC202 | FakeGPT Malicious Chrome Extension | Browser-based malware, C2, DoS | [🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC202-FakeGPT%20Malicious%20Chrome%20Extension.md) |
-| SOC138 | Suspicious XLS File Execution | Malicious macros, C2 access |[🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC202-FakeGPT%20Malicious%20Chrome%20Extension.md)  |
-| SOC211 | Utilman.exe winlogon exploit attempt | malicious command, C2 access |[🔗]( ) |
-| SOC146 | Phishing Mail Detected - Excel 4.0 Macros | [🔗]( ) |
-| SOC257 | VPN Connection Detected from Unauthorized Country | [🔗]( ) |
-| SOC335 | CVE-2024-49138 Exploitation Detected (EventID:313) | [🔗]( ) |
+| SOC202 | FakeGPT Malicious Chrome Extension | Data Leakage| [🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC202-FakeGPT%20Malicious%20Chrome%20Extension.md) |
+| SOC138 | Suspicious XLS File Execution | 	Malware  |[🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC138%20%E2%80%93%20Detected%20Suspicious%20XLS%20File%20.md) |
+| SOC211 | Utilman.exe winlogon exploit attempt | 	LOLBin |[🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC211%20%E2%80%93%20Utilman.exe%20Winlogon%20Exploit%20Attempt.md)|
+| SOC146 | Phishing Mail Detected - Excel 4.0 Macros | 	Exchange | [🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC146-Phishing-Excel-Macro.md) |
+| SOC257 | VPN Connection Detected from Unauthorized Country | 	Unauthorized Access | [🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC257%20%E2%80%93%20VPN%20Connection%20Detected%20from%20Unauthorized%20Country.md)|
+| SOC335 | CVE-2024-49138 Exploitation Detected (EventID:313) | 	Privilege Escalation | [🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC335%20%E2%80%93%20CVE-2024-49138%20Exploitation%20Detected%20(EventID%3A%20313).md) |
 | SOCXXX | _(More coming…)_ | — | — |
 
 ➡️ *New alerts are added continuously as part of my SOC training and practice.*
