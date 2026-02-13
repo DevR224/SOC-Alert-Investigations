@@ -22,6 +22,7 @@ To demonstrate **hands-on SOC analysis skills**, structured thinking, and practi
 | SOC146 | Phishing Mail Detected - Excel 4.0 Macros | 	Exchange | [🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC146-Phishing-Excel-Macro.md) |
 | SOC257 | VPN Connection Detected from Unauthorized Country | 	Unauthorized Access | [🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC257%20%E2%80%93%20VPN%20Connection%20Detected%20from%20Unauthorized%20Country.md)|
 | SOC335 | CVE-2024-49138 Exploitation Detected (EventID:313) | 	Privilege Escalation | [🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC335%20%E2%80%93%20CVE-2024-49138%20Exploitation%20Detected%20(EventID%3A%20313).md) |
+| SOC176 | RDP Brute Force Detected | Brute Force | [🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC176%20%E2%80%93%20RDP%20Brute%20Force%20Detected%20(EventID%3A%20234).md) |
 | SOCXXX | _(More coming…)_ | — | — |
 
 ➡️ *New alerts are added continuously as part of my SOC training and practice.*
