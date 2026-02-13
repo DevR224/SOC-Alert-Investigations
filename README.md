@@ -18,6 +18,10 @@ To demonstrate **hands-on SOC analysis skills**, structured thinking, and practi
 |--------|-----------|-------|-------|
 | SOC202 | FakeGPT Malicious Chrome Extension | Browser-based malware, C2, DoS | [🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC202-FakeGPT%20Malicious%20Chrome%20Extension.md) |
 | SOC138 | Suspicious XLS File Execution | Malicious macros, C2 access |[🔗](https://github.com/DevR224/SOC-Alert-Investigations/blob/main/SOC202-FakeGPT%20Malicious%20Chrome%20Extension.md)  |
+| SOC211 | Utilman.exe winlogon exploit attempt | malicious command, C2 access |[🔗]( ) |
+| SOC146 | Phishing Mail Detected - Excel 4.0 Macros | [🔗]( ) |
+| SOC257 | VPN Connection Detected from Unauthorized Country | [🔗]( ) |
+| SOC335 | CVE-2024-49138 Exploitation Detected (EventID:313) | [🔗]( ) |
 | SOCXXX | _(More coming…)_ | — | — |
 
 ➡️ *New alerts are added continuously as part of my SOC training and practice.*
