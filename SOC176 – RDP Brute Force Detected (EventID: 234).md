@@ -120,9 +120,9 @@ For the complete step-by-step investigation and analysis walkthrough:
 
 ---
 
-## 🧑‍💻 About This Repository
+## 🧑‍💻 About This File
 
-This repository documents real-world SOC alert investigations, focusing on:
+This File documents real-world SOC alert investigations, focusing on:
 
 - IOC extraction
 - Log analysis
