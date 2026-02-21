@@ -131,7 +131,7 @@ C:\Windows\System32\mshta.exe C:\Users\Roberto\Desktop\Ps1.hta
 
 For the complete step-by-step analysis:
 
-👉 [Full Hashnode Blog Here](https://rideshcyber.hashnode.dev/)
+👉 [Full Hashnode Blog Here](https://rideshcyber.hashnode.dev/soc164-suspicious-mshta-behavior-walkthrough-eventid114)
 
 ---
 
