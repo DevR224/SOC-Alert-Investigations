@@ -126,7 +126,7 @@ Saved as: nmap.zip
 
 # 📖 Full Investigation Walkthrough
 
-👉 [Hashnode Blog Here](https://rideshcyber.hashnode.dev/series/soc-alert-walkthroughs-letsdefend)
+👉 [Hashnode Blog Here](https://rideshcyber.hashnode.dev/soc163-suspicious-certutilexe-usage-walkthrough-event-id-113)
 
 ---
 
