@@ -114,7 +114,7 @@ Destination IP: 172.16.20.151
 
 For the complete step-by-step blog analysis:
 
-👉 [Full Hashnode Blog Here](https://rideshcyber.hashnode.dev/)
+👉 [Full Hashnode Blog Here](https://rideshcyber.hashnode.dev/soc282-phishing-alert-deceptive-mail-detected-walkthrough-eventid257)
 
 ---
 
